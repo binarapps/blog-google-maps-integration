@@ -1,24 +1,25 @@
-# README
+# Integration of Google Maps in Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails application for a practical presentation of the [Binar::Apps blog post](https://binarapps.com/blog/integration-of-googlemaps-in-rails-4).
 
-Things you may want to cover:
+* Ruby 2.3.3
+* Rails 5.0.0.1
 
-* Ruby version
+Before use:
 
-* System dependencies
+```
+git clone ...
+```
 
-* Configuration
+```
+bundle install
+```
 
-* Database creation
+Enjoy!
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### External gems:
 
-* Deployment instructions
-
-* ...
+ * [Gmaps4rails](https://github.com/apneadiving/Google-Maps-for-Rails) gem for adding google maps libraries to rails app
+ * [haml-rails](https://github.com/indirect/haml-rails) gem for enabling HAML templates engine
